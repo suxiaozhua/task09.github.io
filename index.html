@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>技能树首页</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/home.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body scroll="no" style="overflow-x:hidden;">
+        <div id="header">
+          <div class="container header_top">
+            <div class="row">
+
+              <div class="col-md-8 hidden-sm hidden-xs">
+                <p style="color: #29B078;margin: 5px 0 5px 20px;">客服热线：010-123-12345</p>
+              </div>
+
+              <div class="col-md-4 hidden-sm hidden-xs htIMG">
+                <img src="./images/002.png">
+                <img src="./images/003.png">
+                <img src="./images/004.png">
+              </div>
+
+              <div class="col-sm-12 col-xs-12 hidden-md hidden-lg">
+                <div class="topleft">
+                  <a href="#">&nbsp;登录</a><a href="#" class="toplefts">注册&nbsp;</a>
+                </div>           
+              </div>
+
+            </div>
+          </div>
+
+          <div class="header_bottom">
+            <div class="container">
+              <div class="navbar-header">
+                <a href="#" class="navbar-brand logo  img-responsive"><img src="./images/logo.png" alt="技能树"></a>
+                <button type="button" onclick="changecolor()" value="#FFFFF0" id="buttontry" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>                
+              </div>
+              <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="active"><a href="./index.html">首页</a></li>
+                  <li><a href="./skill.html">职业</a></li>
+                  <li><a href="./cooperation.html">推荐</a></li>
+                  <li><a href="./cooperation.html">关于</a></li>
+                </ul> 
+              </div>              
+            </div>
+          </div>
+
+        </div>
+  <!-- 轮播图 -->        
+        <div id="showCase">
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                  <img src="./images/lun.jpg" >
+                </div>
+                <div class="item">
+                  <img src="./images/lun.jpg" >
+                </div>
+                <div class="item">
+                  <img src="./images/lun.jpg" >
+                </div>
+            </div>
+           
+            <!-- Controls -->
+              <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            </a>
+          </div>
+        </div>
+  <!-- 正文区 第一部分 -->        
+        <div id="content_1_atea">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="media">
+                  <div class="mediaWindow">
+                    <div class="media-top">
+                        <a href="#">
+                          <img class="media-object img-responsive center-block tab1img" src="./images/005.png" alt="...">
+                        </a>
+                    </div>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading tab1-h4">高效</h4>
+                    <p class="mediatt tab1-p">将五到七年的成年时间，缩短到一年到三年</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="media">
+                  <div class="mediaWindow">
+                    <div class="media-top">
+                        <a href="#">
+                          <img class="media-object img-responsive center-block tab1img" src="./images/006.png" alt="...">
+                        </a>
+                    </div>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading tab1-h4">规范</h4>
+                    <p class="mediatt tab1-p">标准的实战教程，不会走弯路</p>
+                  </div>
+                </div>                
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="media">
+                  <div class="mediaWindow">
+                    <div class="media-top">
+                        <a href="#">
+                          <img class="media-object img-responsive center-block tab1img" src="./images/007.png" alt="...">
+                        </a>
+                    </div>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading tab1-h4">人脉</h4>
+                    <p class="mediatt tab1-p">同班好友，同院学长，技术大师，入学就混入职脉圈，为以后铺平道路。</p>
+                  </div>
+                </div>                
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12 tab1-4">
+                <div class="statisticalData">
+                  <h4><span class="glyphicon glyphicon-user" style="color: #29B078;"></span> 12345</h4>
+                  <p class="tab1-4p">累计在线学习人数</p>
+                </div>
+                <div class="statisticalData">
+                  <h4><span class="glyphicon glyphicon-user" style="color: #29B078;"></span> 12345</h4>
+                  <p class="tab1-4p">学员已经找到满意工作</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  <!-- 正文区 第二部分 -->
+        <div id="content_2_atea">
+          <h4 class="tab2-h4">如何学习</h4>
+          <div class="container">
+            
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12 tab2-d">
+                  <div class="media">
+                    <div class="media-left media-middle">
+                      <a href="#">
+                        <img class="media-object" src="./images/107.png" alt="..." weight="50" height="50">
+                      </a>
+                    </div>
+                    <div class="media-body">
+                      <p class="tab2-p" style="text-align:center;">匹配个人情况，寻找适合岗位</p>
+                    </div>
+                    <div class="media-right media-middle">
+                      <a href="#">
+                        <img class="media-object" src="./images/03.png" alt="..." weight="50" height="50">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 tab2-d">
+                  <div class="media">
+                    <div class="media-left media-middle">
+                      <a href="#">
+                        <img class="media-object" src="./images/107-2.png" alt="..." weight="50" height="50">
+                      </a>
+                    </div>
+                    <div class="media-body">
+                      <p class="tab2-p" style="text-align:center;">了解职业前景，知晓薪资待遇</p>
+                    </div>
+                    <div class="media-right media-middle">
+                      <a href="#">
+                        <img class="media-object" src="./images/03.png" alt="..." weight="50" height="50">
+                      </a>
+                    </div>
+                  </div>              
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 tab2-d">
+                  <div class="media">
+                    <div class="media-left media-middle">
+                      <a href="#">
+                        <img class="media-object" src="./images/107-3.png" alt="..." weight="50" height="50">
+                      </a>
+                    </div>
+                    <div class="media-body">
+                      <p class="tab2-p" style="text-align:center;">掌握行业情况，学会顶级技能</p>
+                    </div>
+                    <div class="media-right media-middle">
+                      <a href="#">
+                        <img class="media-object" src="./images/03.png" alt="..." weight="50" height="50">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 tab2-d">
+                  <div class="media">
+                    <div class="media-left media-middle">
+                      <a href="#">
+                        <img class="media-object" src="./images/107-4.png" alt="..." weight="50" height="50">
+                      </a>
+                    </div>
+                    <div class="media-body">
+                      <p class="tab2-p" style="text-align:center;">选择导师引导，加快成长速度</p>
+                    </div>
+                    <div class="media-right media-middle">
+                      <a href="#">
+                        <img class="media-object" src="./images/03.png" alt="..." weight="50" height="50">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 col-xs-12 tab2-d">
+                  <div class="media">
+                    <div class="media-left media-middle">
+                      <a href="#">
+                        <img class="media-object" src="./images/107-5.png" alt="..." weight="50" height="50">
+                      </a>
+                    </div>
+                    <div class="media-body">
+                      <p class="tab2-p" style="text-align:center;">查看职业目标，完成各项任务</p>
+                    </div>
+                    <div class="media-right media-middle">
+                      <a href="#">
+                        <img class="media-object" src="./images/03.png" alt="..." weight="50" height="50">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 tab2-d">
+                  <div class="media">
+                    <div class="media-left media-middle">
+                      <a href="#">
+                        <img class="media-object" src="./images/107-6.png" alt="..." weight="50" height="50">
+                      </a>
+                    </div>
+                    <div class="media-body">
+                      <p class="tab2-p" style="text-align:center;">参考学习资料，逐个掌握技能</p>
+                    </div>
+                    <div class="media-right media-middle">
+                      <a href="#">
+                        <img class="media-object" src="./images/03.png" alt="..." weight="50" height="50">
+                      </a>
+                    </div>
+                  </div>              
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 tab2-d">
+                  <div class="media">
+                    <div class="media-left media-middle">
+                      <a href="#">
+                        <img class="media-object" src="./images/107-7.png" alt="..." weight="50" height="50">
+                      </a>
+                    </div>
+                    <div class="media-body">
+                      <p class="tab2-p" style="text-align:center;">班级互帮互助，伙伴一起学习</p>
+                    </div>
+                    <div class="media-right media-middle">
+                      <a href="#">
+                        <img class="media-object" src="./images/03.png" alt="..." weight="50" height="50">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12 tab2-d">
+                  <div class="media">
+                    <div class="media-left media-middle">
+                      <a href="#">
+                        <img class="media-object" src="./images/107-8.png" alt="..." weight="50" height="50">
+                      </a>
+                    </div>
+                    <div class="media-body">
+                      <p class="tab2-p" style="text-align:center;">完成技能任务，成为业界大牛</p>
+                    </div>
+                    <div class="media-right media-middle">
+                      <a href="#">
+                        <img class="media-object" src="./images/03.png" alt="..." weight="50" height="50">
+                      </a>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+  <!-- 正文区 第三部分 -->
+        <div id="content_3_atea">
+          <h4 class="tab3-h4">优秀学员展示</h4>
+          <div class="container tab3">
+            <div class="row">
+              <div class="col-md-3 col-sm-6 zoneThird">
+                <div class="media panel panel-default">
+                  <div class="mediaWindow mediaWindowTwo">
+                    <div class="media-top">
+                        <a href="#">
+                          <img class="media-object img-responsive" src="./images/saber1.png" alt="...">
+                        </a>
+                    </div>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading tab3-h">技术顾问：小萝莉</h4>
+                    <p class="tab3-p">阿尔托利亚·潘德拉贡[Alter]，日本游戏以及改编动画《Fate》系列中登场的人物，最早登场于游戏《Fate/stay night》</p>
+                  </div>
+                </div>      
+              </div>
+              <div class="col-md-3 col-sm-6 zoneThird">
+                <div class="media panel panel-default">
+                  <div class="mediaWindow mediaWindowTwo">
+                    <div class="media-top">
+                        <a href="#">
+                          <img class="media-object img-responsive" src="./images/saber2.png" alt="...">
+                        </a>
+                    </div>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading tab3-h">技术顾问：小萝莉</h4>
+                    <p class="tab3-p">阿尔托利亚·潘德拉贡[Alter]，日本游戏以及改编动画《Fate》系列中登场的人物，最早登场于游戏《Fate/stay night》</p>
+                  </div>
+                </div>      
+              </div>
+              <div class="col-md-3 col-sm-6 zoneThird">
+                <div class="media panel panel-default">
+                  <div class="mediaWindow mediaWindowTwo">
+                    <div class="media-top">
+                        <a href="#">
+                          <img class="media-object img-responsive" src="./images/saber3.png" alt="...">
+                        </a>
+                    </div>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading tab3-h">技术顾问：小萝莉</h4>
+                    <p class="tab3-p">阿尔托利亚·潘德拉贡[Alter]，日本游戏以及改编动画《Fate》系列中登场的人物，最早登场于游戏《Fate/stay night》</p>
+                  </div>
+                </div>      
+              </div>
+              <div class="col-md-3 col-sm-6 zoneThird">
+                <div class="media panel panel-default">
+                  <div class="mediaWindow mediaWindowTwo">
+                    <div class="media-top">
+                        <a href="#">
+                          <img class="media-object img-responsive" src="./images/saber4.png" alt="...">
+                        </a>
+                    </div>
+                  </div>
+                  <div class="media-body">
+                    <h4 class="media-heading tab3-h">技术顾问：小萝莉</h4>
+                    <p class="tab3-p">阿尔托利亚·潘德拉贡[Alter]，日本游戏以及改编动画《Fate》系列中登场的人物，最早登场于游戏《Fate/stay night》</p>
+                  </div>
+                </div>      
+              </div>  
+            </div>    
+          </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 hidden-xs">
+               <div class="box">
+                <span class="itemgreen"></span>
+                <span class="itemwhite"></span>
+                <span class="itemwhite"></span>
+                <span class="itemwhite"></span>
+              </div>              
+            </div>
+          </div>       
+        </div>
+
+  <!-- 正文区 第四部分 -->
+        <div id="content_4_atea">
+          <h4 class="tab4-h4">战略合作企业</h4>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-1"></div>
+              <div class="col-md-2 col-sm-6 col-xs-12 zoneFourthcc">
+                <div class="media">
+                  <div class="media-top tab4">
+                    <a href="#">
+                      <img class="media-object img-responsive" src="./images/BT1.png" alt="./images/BT1.png">
+                    </a>
+                  </div>
+                </div>      
+              </div>
+
+              <div class="col-md-2 col-sm-6 col-xs-12 zoneFourthcc">
+                <div class="media">
+                  <div class="media-top tab4">
+                    <a href="#">
+                      <img class="media-object img-responsive" src="./images/BT2.png" alt="./images/BT2.png">
+                    </a>
+                  </div>
+                </div>      
+              </div>
+              <div class="col-md-2 col-sm-6 col-xs-12 zoneFourthcc">
+                <div class="media">
+                  <div class="media-top tab4">
+                    <a href="#">
+                      <img class="media-object img-responsive" src="./images/BT3.png" alt="./images/BT3.png">
+                    </a>
+                  </div>
+                </div>      
+              </div>
+              <div class="col-md-2 col-sm-6 col-xs-12 zoneFourthcc">
+                <div class="media">
+                  <div class="media-top tab4">
+                    <a href="#">
+                      <img class="media-object img-responsive" src="./images/BT4.png" alt="./images/BT4.png">
+                    </a>
+                  </div>
+                </div>      
+              </div>
+              <div class="col-md-2 col-sm-6 col-xs-12 zoneFourthcc">
+                <div class="media">
+                  <div class="media-top tab4">
+                    <a href="#">
+                      <img class="media-object img-responsive" src="./images/BT5.png" alt="./images/BT5.png">
+                    </a>
+                  </div>
+                </div>      
+              </div>
+              <div class="col-md-1"></div>
+            </div>    
+          </div>        
+        </div>
+
+  <!-- 正文区 第五部分 -->
+        <div id="content_5_atea">
+          <h4 class="tab5-h4">友情链接</h4>
+            <div class="container">
+              <div class="row fifthDistrict">
+                <div class="col-md-2 col-sm-3 col-xs-6">
+                  <div class="friendshipLink">
+                    <ul>
+                      <li><a href="">前端</a></li>
+                      <li><a href="">前端</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="col-md-2 col-sm-3 col-xs-6">
+                  <div class="friendshipLink">
+                    <ul>
+                      <li><a href="">开发</a></li>
+                      <li><a href="">开发</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="col-md-2 col-sm-3 col-xs-6">
+                  <div class="friendshipLink">
+                    <ul>
+                      <li><a href="">招聘</a></li>
+                      <li><a href="">招聘</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="col-md-2 col-sm-3 col-xs-6">
+                  <div class="friendshipLink">
+                    <ul>
+                      <li><a href="">软件</a></li>
+                      <li><a href="">软件</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="col-md-2 col-sm-3 col-xs-6">
+                  <div class="friendshipLink">
+                    <ul>
+                      <li><a href="">培训</a></li>
+                      <li><a href="">培训</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="col-md-2 col-sm-3 col-xs-6">
+                  <div class="friendshipLink">
+                    <ul>
+                      <li><a href="">导师</a></li>
+                      <li><a href="">导师</a></li>
+                    </ul>
+                  </div>
+                </div>                
+              </div>    
+            </div>
+        </div>
+  <!-- 页脚 -->
+  <div class="footer">
+    <div class="row">
+      <div class="col-md-4 col-sm-4 footer01">
+        <br/>
+        <br/>
+        <span>技能树改变你我</span>
+        <br/>
+        <br/>
+        <br/>
+        <span>关于我们 | 联系我们 | 合作企业</span>
+      </div>
+      <div class="col-md-4 col-sm-4 footer01">
+        <br/>
+        <span>旗下网站</span>
+        <br/>
+        <br/>
+        <span>草船云孵化器&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;最强IT特训营</span>
+        <br/>
+        <br/>
+        <span>葡萄藤轻游戏&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;桌游精灵</span>         
+      </div>
+      <div class="col-md-2 col-sm-2 footer01">
+        <img src="./images/weixin.png" width="105" height="115" class="img-responsive center-block">
+      </div>
+    </div>    
+  </div>
+  <div class="footerinfo">
+    <div class="row">   
+      <div class="col-md-12">       
+        <span>Copyright © 2015技能树 | 京ICP备案号13005880号</span>
+      </div>
+    </div>
+  </div>
+   	
+    <script>
+      function changecolor()  //定义函数
+          {      
+              var mychar = document.getElementById("buttontry"); //获取要改变颜色的id
+              mychar.style.backgroundColor="#FFFFF0"
+      }
+    </script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

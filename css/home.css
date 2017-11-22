@@ -1,0 +1,321 @@
+@charset "utf-8";
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+}
+
+/* 导航栏 */
+
+.header_bottom {
+	padding: 5px 0;
+	background-color: #29B078;
+}
+
+.icon-bar {
+	background-color: #696969;	
+}
+
+.navbar-right {
+	padding: 0;
+}
+
+.navbar-right a:link,
+.navbar-right a:visited {
+	color: #FFF;
+	background-color: #29B078;
+	margin-bottom: 2px;
+}
+
+.navbar-right li a:hover {
+	background-color: #29B078;
+	border-bottom: 2px solid #FFF;
+	margin-bottom: 0;
+}
+
+/* 页头 */
+
+.logo {
+	padding: 0 0 0 10px;
+	margin: 0;
+}
+
+.topleft {
+	height: 30px;
+}
+
+.toplefts {
+	border-right: 2px solid #29B078;
+}
+
+.topleft a {
+	display: inline-block;
+	margin: 5px 0;
+	float: right;
+}
+
+.htIMG {
+	display: inline-block;
+	text-align: right;
+}
+
+/* *正文区* content_1_atea */
+
+#content_1_atea .media {
+	margin: 10px 10px;
+	padding: 5px;
+}
+
+.tab1-4 {
+	padding: 40px 15px 0 15px;	
+}
+
+.tab1-4p {
+	text-align: center;
+	font-size: 15px;
+}
+
+.tab1img {
+	padding-top: 20px;
+}
+
+.tab1-h4 {
+	font-size: 18px;
+	text-align: center;
+	font-weight: 580;
+	line-height: 1.6;
+}
+
+.tab1-p {
+	font-size: 15px;
+	line-height: 1.6;
+	text-align: center;
+}
+
+.statisticalData {
+	text-align: center;
+}
+
+.statisticalData {
+	margin: 10px;
+	border-left: 2px dotted #A9A9A9;
+	padding: 5px;
+}
+
+/* *正文区* content_2_atea */
+
+#content_2_atea .media {
+	margin: 10px 0px;
+	padding: 5px;
+}
+
+.tab2-h4 {
+	font-size: 18px;
+	text-align: center;
+	font-weight: 580;
+	line-height: 6;
+}
+
+.tab2-p {
+	font-size: 15px;
+	line-height: 1.6;
+	text-align: center;
+}
+
+/* *正文区* content_3_atea */
+
+.tab3-h4 {
+	font-size: 18px;
+	text-align: center;
+	font-weight: 580;
+	line-height: 6;
+}
+
+.tab3-h {
+	font-size: 16px;
+	text-align: center;
+	font-weight: 580;
+	line-height: 1.6;
+}
+
+
+.tab3 {
+	padding: 10px 20px 10px;
+}
+
+.zoneThird {
+	margin-top: 10px;
+	padding: 10px;
+}
+
+#content_3_atea .mediaWindow {
+	display: flex;
+	justify-content: center;
+	margin: 10px;
+}
+
+#content_3_atea .media {
+	margin: 0 auto;
+}
+
+.tab3-p {
+	font-size: 15px;
+	line-height: 1.6;
+	padding: 5px 15px;
+}
+
+.box {
+	display: flex;
+	margin-top: 10px;
+	justify-content: center;
+}
+
+.itemgreen {
+	width: 10px;
+	height: 10px;
+	background: #29B078;
+	border-radius: 50%;
+	border: 1px solid gray;
+	margin: 3px 3px 10px 3px;
+}
+
+.itemwhite {
+	width: 10px;
+	height: 10px;
+	background: #FFF;
+	border-radius: 50%;
+	border: 1px solid gray;
+	margin: 3px 3px 10px 3px;
+}
+
+/* *正文区* content_4_atea */
+
+.tab4-h4 {
+	font-size: 18px;
+	text-align: center;
+	font-weight: 580;
+	line-height: 6;
+}
+
+.tab4 img {
+	width: 90%;
+	height: 90%;
+	margin: 5px;
+	border: 1px solid #CCC;
+}
+
+.zoneFourthcc {
+	padding: 10px;
+}
+
+.zoneFourthcc a:hover img {
+	box-shadow:  0px 0px 2px 3px #CCC;
+
+}
+
+/* *正文区* content_5_atea */
+
+.tab5-h4 {
+	font-size: 18px;
+	text-align: center;
+	font-weight: 580;
+	line-height: 6;
+}
+
+.friendshipLink li {
+	font-size: 15px;
+	list-style-type: none;
+}
+
+.friendshipLink li a:link,
+.friendshipLink li a:visited {
+	color: #9A9A9A;
+	border-bottom: none;
+	text-decoration:none;
+	font-size: 14px;
+}
+
+.friendshipLink li a:hover {
+	border-bottom: 1px solid #29B078;
+}
+
+/* *页脚* */
+
+.footer {
+	padding: 20px;
+	background-color: #29B078;
+}
+
+.footer01 {
+	color: #FFF;
+	margin: 1px 5px 0;
+	padding-bottom: 5px;
+	background-color: #29B078;
+	text-align: center;
+}
+
+.footerinfo {
+	height: 40px;
+	background-color: #29B078;
+	border-top: 1px solid #FFF;
+	color: #FFF;
+	padding: 1px;
+	margin: 1px;
+	text-align: center;
+}
+
+
+
+/*没有小于768px，是因为Bootstrap3以移动端优先设计*/
+
+/* 小屏幕（平板，大于等于768px） */
+@media (min-width: 768px) {
+	.tab1-h4 .tab2-h4 .tab3-h4 .tab5-h4 {
+		font-size: 20px; /*18px 20px 22px 22px*/
+	}
+	.tab3-h {
+		font-size: 18px;
+	}
+
+	.tab1-p .tab2-p {
+		font-size: 16px; /*15px 16px 17px 18px*/
+		text-align: center;
+	}
+	.tab3 {
+		padding: 10px 60px 10px;
+	}
+	.mediatt {
+		font-size: 16px;		
+	}
+	.friendshipLink li {
+		font-size: 16px;		
+	}
+}
+
+/* 中等屏幕（桌面显示器，大于等于992px） */
+@media (min-width: 992px) {
+	.tab1-h4 .tab2-h4 .tab3-h4 .tab5-h4 {
+		font-size: 22px; /*18px 20px 22px 22px*/
+	}
+	.tab1-p {
+		font-size: 17px; /*15px 16px 17px 18px*/
+		text-align: left;	
+	}
+	.friendshipLink li {
+		font-size: 18px;		
+	}
+}
+
+/* 大屏幕（大桌面显示器，大于等于1200px） */
+@media (min-width: 1200px) {
+	.tab1-h4 .tab2-h4 .tab3-h4 .tab5-h4 {
+		font-size: 22px; /*18px 20px 22px 22px*/
+	}
+
+	.tab1-p {
+		font-size: 18px; /*15px 16px 18px 18px*/
+		text-align: left;	
+	}
+	.friendshipLink li {
+		font-size: 19px;		
+	}
+}

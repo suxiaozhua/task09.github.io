@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>职业介绍页</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/skill.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body scroll="no" style="overflow-x:hidden;">
+        <div id="header">
+          <div class="container header_top">
+            <div class="row">
+
+              <div class="col-md-8 hidden-sm hidden-xs">
+                <p style="color: #29B078;margin: 5px 0 5px 20px;">客服热线：010-123-12345</p>
+              </div>
+
+              <div class="col-md-4 hidden-sm hidden-xs htIMG">
+                <img src="./images/002.png">
+                <img src="./images/003.png">
+                <img src="./images/004.png">
+              </div>
+
+              <div class="col-sm-12 col-xs-12 hidden-md hidden-lg">
+                <div class="topleft">
+                  <a href="#">&nbsp;登录</a><a href="#" class="toplefts">注册&nbsp;</a>
+                </div>           
+              </div>
+
+            </div>
+          </div>
+
+          <div class="header_bottom">
+            <div class="container">
+              <div class="navbar-header">
+                <a href="#" class="navbar-brand logo  img-responsive"><img src="./images/logo.png" alt="技能树"></a>
+                <button type="button" onclick="changecolor()" value="#FFFFF0" id="buttontry" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>                
+              </div>
+              <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="active"><a href="./index.html">首页</a></li>
+                  <li><a href="./skill.html">职业</a></li>
+                  <li><a href="./cooperation.html">推荐</a></li>
+                  <li><a href="./cooperation.html">关于</a></li>
+                </ul> 
+              </div>              
+            </div>
+          </div>
+
+        </div>
+  <!-- 面包屑导航 -->
+  <div class="row">
+    <div class="col-md-1 col-sm-1 col-xs-1"></div>
+    <div class="col-md-10 col-sm-10 col-xs-10 miaobaob">
+      <ol class="breadcrumb mianbao">
+        <li><a href="./index.html">首页</a></li>
+        <li class="active">合作企业</li>
+      </ol>
+    </div>
+    <div class="col-md-1 col-sm-1 col-xs-1"></div>
+  </div>
+  <!-- 标签栏 -->
+  <div class="row">
+    <div class="col-md-1 col-sm-1 col-xs-1"></div>
+    <div class="col-md-10 col-sm-10 col-xs-10 tab1">
+      <span>方向：&nbsp;&nbsp;&nbsp;&nbsp;</span><a href="#">全部</a><a href="#001">前端开发</a><a href="#002">后端开发</a><a href="#003">移动开发</a><a href="#004">整站开发</a><a href="#005">运营维护</a>
+    </div>
+    <div class="col-md-1 col-sm-1 col-xs-1"></div>
+  </div>
+  <!-- 内容第一区 已选标签名称 -->
+  <div class="row tab1Area">
+    <div class="col-md-1 col-sm-1 col-xs-1"></div>
+    <div class="col-md-10 col-sm-10 col-xs-10 selfLabel">
+      <a name="001"></a><h4 class="tab1-h">前端开发方向</h4>
+    </div>
+    <div class="col-md-1 col-sm-1 col-xs-1"></div>
+  </div>
+  <!-- 内容第一区 主体内容 -->
+  <div class="row media3M">
+        <div class="col-xs-12 col-sm-6 col-md-4 mediathree">
+          <div class="box">
+            <div class="bmbox"><h3 style="font-weight:600;" class="tab2-h3">Web工程师</h3><p class="tab2-p">iOS是由苹果公司开发的移动操作系统[1]  。苹果公司最早于2007年1月9日的Macworld大会上公布这个系统，最初是设计给iPhone使用的，后来陆续套用到iPod touch、iPad以及Apple TV等产品上。iOS与苹果的Mac OS X操作系统一样，属于类Unix的商业操作系统。原本这个系统名为iPhone OS，因为iPad，iPhone，iPod touch都使用iPhone OS。</p></div>
+          <div class="panel panel-default">
+              <div class="panel-body">
+              <div class="media mediabottom">
+                  <div class="media-top">
+                    <a href="#">
+                        <img class="media-object tab2-img" src="./images/CSJ.png" alt="..." width="100" height="100">
+                    </a>
+                  </div>
+                  <div class="media-body tab2-text">
+                    <h4 class="media-heading headh5">Web前端开发工程师</h4>
+                    <span>Web前端开发工程师，主要职责是利用HTML/CSS/Javascript/flash等各种Web技术进行产品的开发</span>
+                  </div>
+              </div>
+              </div>
+            <div class="bs-example" data-example-id="bordered-table tab2-table">
+                <table class="table table-bordered tab2-tableBottom">
+                  <tbody>
+                    <tr>
+                      <td>门槛&nbsp;&nbsp;<span class="glyphicon glyphicon-star" style="color:orange;"></span></td>
+                      <td>难易程度&nbsp;&nbsp;<span class="glyphicon glyphicon-star" style="color:orange;"></span><span class="glyphicon glyphicon-star" style="color:orange;"></span></td>
+                    </tr>
+                    <tr>
+                      <td>成长周期&nbsp;&nbsp;<span style="color:orange">1-3</span>年</td>
+                      <td>稀缺程度&nbsp;&nbsp;<span style="color:orange">345</span>家公司需要</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="3" class="right" align="center"><br/><br/>薪资待遇</td>
+                      <td>0-1年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5K-10K每月</td>
+                    </tr>
+                    <tr>
+                      <td>1-3年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10K-20K每月</td>
+                    </tr>
+                    <tr>
+                      <td>4-5年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20K-30K每月</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" class="right" align="center">有<span style="color:orange">286</span>人正在学</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p align="center">提示：在你学之前应该掌握XXX,XXX等语言</p>
+              </div>
+          </div>              
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 mediathree">
+          <div class="box">
+            <div class="bmbox"><h3 style="font-weight:600;" class="tab2-h3">Web工程师</h3><p class="tab2-p">iOS是由苹果公司开发的移动操作系统[1]  。苹果公司最早于2007年1月9日的Macworld大会上公布这个系统，最初是设计给iPhone使用的，后来陆续套用到iPod touch、iPad以及Apple TV等产品上。iOS与苹果的Mac OS X操作系统一样，属于类Unix的商业操作系统。原本这个系统名为iPhone OS，因为iPad，iPhone，iPod touch都使用iPhone OS。</p></div>
+          <div class="panel panel-default">
+              <div class="panel-body">
+              <div class="media mediabottom">
+                  <div class="media-top">
+                    <a href="#">
+                        <img class="media-object tab2-img" src="./images/CSJ.png" alt="..." width="100" height="100">
+                    </a>
+                  </div>
+                  <div class="media-body tab2-text">
+                    <h4 class="media-heading headh5">Web前端开发工程师</h4>
+                    <span>Web前端开发工程师，主要职责是利用HTML/CSS/Javascript/flash等各种Web技术进行产品的开发</span>
+                  </div>
+              </div>
+              </div>
+            <div class="bs-example" data-example-id="bordered-table tab2-table">
+                <table class="table table-bordered tab2-tableBottom">
+                  <tbody>
+                    <tr>
+                      <td>门槛&nbsp;&nbsp;<span class="glyphicon glyphicon-star" style="color:orange;"></span></td>
+                      <td>难易程度&nbsp;&nbsp;<span class="glyphicon glyphicon-star" style="color:orange;"></span><span class="glyphicon glyphicon-star" style="color:orange;"></span></td>
+                    </tr>
+                    <tr>
+                      <td>成长周期&nbsp;&nbsp;<span style="color:orange">1-3</span>年</td>
+                      <td>稀缺程度&nbsp;&nbsp;<span style="color:orange">345</span>家公司需要</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="3" class="right" align="center"><br/><br/>薪资待遇</td>
+                      <td>0-1年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5K-10K每月</td>
+                    </tr>
+                    <tr>
+                      <td>1-3年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10K-20K每月</td>
+                    </tr>
+                    <tr>
+                      <td>4-5年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20K-30K每月</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" class="right" align="center">有<span style="color:orange">286</span>人正在学</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p align="center">提示：在你学之前应该掌握XXX,XXX等语言</p>
+              </div>
+          </div>              
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 mediathree">
+          <div class="box">
+            <div class="bmbox"><h3 style="font-weight:600;" class="tab2-h3">Web工程师</h3><p class="tab2-p">iOS是由苹果公司开发的移动操作系统[1]  。苹果公司最早于2007年1月9日的Macworld大会上公布这个系统，最初是设计给iPhone使用的，后来陆续套用到iPod touch、iPad以及Apple TV等产品上。iOS与苹果的Mac OS X操作系统一样，属于类Unix的商业操作系统。原本这个系统名为iPhone OS，因为iPad，iPhone，iPod touch都使用iPhone OS。</p></div>
+          <div class="panel panel-default">
+              <div class="panel-body">
+              <div class="media mediabottom">
+                  <div class="media-top">
+                    <a href="#">
+                        <img class="media-object tab2-img" src="./images/CSJ.png" alt="..." width="100" height="100">
+                    </a>
+                  </div>
+                  <div class="media-body tab2-text">
+                    <h4 class="media-heading headh5">Web前端开发工程师</h4>
+                    <span>Web前端开发工程师，主要职责是利用HTML/CSS/Javascript/flash等各种Web技术进行产品的开发</span>
+                  </div>
+              </div>
+              </div>
+            <div class="bs-example" data-example-id="bordered-table tab2-table">
+                <table class="table table-bordered tab2-tableBottom">
+                  <tbody>
+                    <tr>
+                      <td>门槛&nbsp;&nbsp;<span class="glyphicon glyphicon-star" style="color:orange;"></span></td>
+                      <td>难易程度&nbsp;&nbsp;<span class="glyphicon glyphicon-star" style="color:orange;"></span><span class="glyphicon glyphicon-star" style="color:orange;"></span></td>
+                    </tr>
+                    <tr>
+                      <td>成长周期&nbsp;&nbsp;<span style="color:orange">1-3</span>年</td>
+                      <td>稀缺程度&nbsp;&nbsp;<span style="color:orange">345</span>家公司需要</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="3" class="right" align="center"><br/><br/>薪资待遇</td>
+                      <td>0-1年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5K-10K每月</td>
+                    </tr>
+                    <tr>
+                      <td>1-3年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10K-20K每月</td>
+                    </tr>
+                    <tr>
+                      <td>4-5年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20K-30K每月</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" class="right" align="center">有<span style="color:orange">286</span>人正在学</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p align="center">提示：在你学之前应该掌握XXX,XXX等语言</p>
+              </div>
+          </div>              
+            </div>
+        </div>
+  </div>
+  <!-- 内容第二区 已选标签名称 -->
+  <div class="row tab1Area">
+    <div class="col-md-1 col-sm-1 col-xs-1"></div>
+    <div class="col-md-10 col-sm-10 col-xs-10 selfLabel">
+      <a name="002"></a><h4 class="tab1-h">后端开发方向</h4>
+    </div>
+    <div class="col-md-1 col-sm-1 col-xs-1"></div>
+  </div>
+  <!-- 内容第二区 主体内容 -->
+  <div class="row media3M">
+        <div class="col-xs-12 col-sm-6 col-md-4 mediathree">
+          <div class="box">
+            <div class="bmbox"><h3 style="font-weight:600;" class="tab2-h3">Web工程师</h3><p class="tab2-p">iOS是由苹果公司开发的移动操作系统[1]  。苹果公司最早于2007年1月9日的Macworld大会上公布这个系统，最初是设计给iPhone使用的，后来陆续套用到iPod touch、iPad以及Apple TV等产品上。iOS与苹果的Mac OS X操作系统一样，属于类Unix的商业操作系统。原本这个系统名为iPhone OS，因为iPad，iPhone，iPod touch都使用iPhone OS。</p></div>
+          <div class="panel panel-default">
+              <div class="panel-body">
+              <div class="media mediabottom">
+                  <div class="media-top">
+                    <a href="#">
+                        <img class="media-object tab2-img" src="./images/CSJ.png" alt="..." width="100" height="100">
+                    </a>
+                  </div>
+                  <div class="media-body tab2-text">
+                    <h4 class="media-heading headh5">Web前端开发工程师</h4>
+                    <span>Web前端开发工程师，主要职责是利用HTML/CSS/Javascript/flash等各种Web技术进行产品的开发</span>
+                  </div>
+              </div>
+              </div>
+            <div class="bs-example" data-example-id="bordered-table tab2-table">
+                <table class="table table-bordered tab2-tableBottom">
+                  <tbody>
+                    <tr>
+                      <td>门槛&nbsp;&nbsp;<span class="glyphicon glyphicon-star" style="color:orange;"></span></td>
+                      <td>难易程度&nbsp;&nbsp;<span class="glyphicon glyphicon-star" style="color:orange;"></span><span class="glyphicon glyphicon-star" style="color:orange;"></span></td>
+                    </tr>
+                    <tr>
+                      <td>成长周期&nbsp;&nbsp;<span style="color:orange">1-3</span>年</td>
+                      <td>稀缺程度&nbsp;&nbsp;<span style="color:orange">345</span>家公司需要</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="3" class="right" align="center"><br/><br/>薪资待遇</td>
+                      <td>0-1年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5K-10K每月</td>
+                    </tr>
+                    <tr>
+                      <td>1-3年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10K-20K每月</td>
+                    </tr>
+                    <tr>
+                      <td>4-5年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20K-30K每月</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" class="right" align="center">有<span style="color:orange">286</span>人正在学</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p align="center">提示：在你学之前应该掌握XXX,XXX等语言</p>
+              </div>
+          </div>              
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 mediathree">
+          <div class="box">
+            <div class="bmbox"><h3 style="font-weight:600;" class="tab2-h3">Web工程师</h3><p class="tab2-p">iOS是由苹果公司开发的移动操作系统[1]  。苹果公司最早于2007年1月9日的Macworld大会上公布这个系统，最初是设计给iPhone使用的，后来陆续套用到iPod touch、iPad以及Apple TV等产品上。iOS与苹果的Mac OS X操作系统一样，属于类Unix的商业操作系统。原本这个系统名为iPhone OS，因为iPad，iPhone，iPod touch都使用iPhone OS。</p></div>
+          <div class="panel panel-default">
+              <div class="panel-body">
+              <div class="media mediabottom">
+                  <div class="media-top">
+                    <a href="#">
+                        <img class="media-object tab2-img" src="./images/CSJ.png" alt="..." width="100" height="100">
+                    </a>
+                  </div>
+                  <div class="media-body tab2-text">
+                    <h4 class="media-heading headh5">Web前端开发工程师</h4>
+                    <span>Web前端开发工程师，主要职责是利用HTML/CSS/Javascript/flash等各种Web技术进行产品的开发</span>
+                  </div>
+              </div>
+              </div>
+            <div class="bs-example" data-example-id="bordered-table tab2-table">
+                <table class="table table-bordered tab2-tableBottom">
+                  <tbody>
+                    <tr>
+                      <td>门槛&nbsp;&nbsp;<span class="glyphicon glyphicon-star" style="color:orange;"></span></td>
+                      <td>难易程度&nbsp;&nbsp;<span class="glyphicon glyphicon-star" style="color:orange;"></span><span class="glyphicon glyphicon-star" style="color:orange;"></span></td>
+                    </tr>
+                    <tr>
+                      <td>成长周期&nbsp;&nbsp;<span style="color:orange">1-3</span>年</td>
+                      <td>稀缺程度&nbsp;&nbsp;<span style="color:orange">345</span>家公司需要</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="3" class="right" align="center"><br/><br/>薪资待遇</td>
+                      <td>0-1年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5K-10K每月</td>
+                    </tr>
+                    <tr>
+                      <td>1-3年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10K-20K每月</td>
+                    </tr>
+                    <tr>
+                      <td>4-5年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20K-30K每月</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" class="right" align="center">有<span style="color:orange">286</span>人正在学</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p align="center">提示：在你学之前应该掌握XXX,XXX等语言</p>
+              </div>
+          </div>              
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 mediathree">
+          <div class="box">
+            <div class="bmbox"><h3 style="font-weight:600;" class="tab2-h3">Web工程师</h3><p class="tab2-p">iOS是由苹果公司开发的移动操作系统[1]  。苹果公司最早于2007年1月9日的Macworld大会上公布这个系统，最初是设计给iPhone使用的，后来陆续套用到iPod touch、iPad以及Apple TV等产品上。iOS与苹果的Mac OS X操作系统一样，属于类Unix的商业操作系统。原本这个系统名为iPhone OS，因为iPad，iPhone，iPod touch都使用iPhone OS。</p></div>
+          <div class="panel panel-default">
+              <div class="panel-body">
+              <div class="media mediabottom">
+                  <div class="media-top">
+                    <a href="#">
+                        <img class="media-object tab2-img" src="./images/CSJ.png" alt="..." width="100" height="100">
+                    </a>
+                  </div>
+                  <div class="media-body tab2-text">
+                    <h4 class="media-heading headh5">Web前端开发工程师</h4>
+                    <span>Web前端开发工程师，主要职责是利用HTML/CSS/Javascript/flash等各种Web技术进行产品的开发</span>
+                  </div>
+              </div>
+              </div>
+            <div class="bs-example" data-example-id="bordered-table tab2-table">
+                <table class="table table-bordered tab2-tableBottom">
+                  <tbody>
+                    <tr>
+                      <td>门槛&nbsp;&nbsp;<span class="glyphicon glyphicon-star" style="color:orange;"></span></td>
+                      <td>难易程度&nbsp;&nbsp;<span class="glyphicon glyphicon-star" style="color:orange;"></span><span class="glyphicon glyphicon-star" style="color:orange;"></span></td>
+                    </tr>
+                    <tr>
+                      <td>成长周期&nbsp;&nbsp;<span style="color:orange">1-3</span>年</td>
+                      <td>稀缺程度&nbsp;&nbsp;<span style="color:orange">345</span>家公司需要</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="3" class="right" align="center"><br/><br/>薪资待遇</td>
+                      <td>0-1年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5K-10K每月</td>
+                    </tr>
+                    <tr>
+                      <td>1-3年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10K-20K每月</td>
+                    </tr>
+                    <tr>
+                      <td>4-5年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20K-30K每月</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" class="right" align="center">有<span style="color:orange">286</span>人正在学</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p align="center">提示：在你学之前应该掌握XXX,XXX等语言</p>
+              </div>
+          </div>              
+            </div>
+        </div>
+  </div>
+  <!-- 内容第三区 已选标签名称 -->
+  <div class="row tab1Area">
+    <div class="col-md-1 col-sm-1 col-xs-1"></div>
+    <div class="col-md-10 col-sm-10 col-xs-10 selfLabel">
+      <a name="003"></a><h4 class="tab1-h">移动开发方向</h4>
+    </div>
+    <div class="col-md-1 col-sm-1 col-xs-1"></div>
+  </div>
+  <!-- 内容第三区 主体内容 -->
+  <div class="row media3M">
+        <div class="col-xs-12 col-sm-6 col-md-4 mediathree">
+          <div class="box">
+            <div class="bmbox"><h3 style="font-weight:600;" class="tab2-h3">Web工程师</h3><p class="tab2-p">iOS是由苹果公司开发的移动操作系统[1]  。苹果公司最早于2007年1月9日的Macworld大会上公布这个系统，最初是设计给iPhone使用的，后来陆续套用到iPod touch、iPad以及Apple TV等产品上。iOS与苹果的Mac OS X操作系统一样，属于类Unix的商业操作系统。原本这个系统名为iPhone OS，因为iPad，iPhone，iPod touch都使用iPhone OS。</p></div>
+          <div class="panel panel-default">
+              <div class="panel-body">
+              <div class="media mediabottom">
+                  <div class="media-top">
+                    <a href="#">
+                        <img class="media-object tab2-img" src="./images/CSJ.png" alt="..." width="100" height="100">
+                    </a>
+                  </div>
+                  <div class="media-body tab2-text">
+                    <h4 class="media-heading headh5">Web前端开发工程师</h4>
+                    <span>Web前端开发工程师，主要职责是利用HTML/CSS/Javascript/flash等各种Web技术进行产品的开发</span>
+                  </div>
+              </div>
+              </div>
+            <div class="bs-example" data-example-id="bordered-table tab2-table">
+                <table class="table table-bordered tab2-tableBottom">
+                  <tbody>
+                    <tr>
+                      <td>门槛&nbsp;&nbsp;<span class="glyphicon glyphicon-star" style="color:orange;"></span></td>
+                      <td>难易程度&nbsp;&nbsp;<span class="glyphicon glyphicon-star" style="color:orange;"></span><span class="glyphicon glyphicon-star" style="color:orange;"></span></td>
+                    </tr>
+                    <tr>
+                      <td>成长周期&nbsp;&nbsp;<span style="color:orange">1-3</span>年</td>
+                      <td>稀缺程度&nbsp;&nbsp;<span style="color:orange">345</span>家公司需要</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="3" class="right" align="center"><br/><br/>薪资待遇</td>
+                      <td>0-1年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5K-10K每月</td>
+                    </tr>
+                    <tr>
+                      <td>1-3年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10K-20K每月</td>
+                    </tr>
+                    <tr>
+                      <td>4-5年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20K-30K每月</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" class="right" align="center">有<span style="color:orange">286</span>人正在学</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p align="center">提示：在你学之前应该掌握XXX,XXX等语言</p>
+              </div>
+          </div>              
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 mediathree">
+          <div class="box">
+            <div class="bmbox"><h3 style="font-weight:600;" class="tab2-h3">Web工程师</h3><p class="tab2-p">iOS是由苹果公司开发的移动操作系统[1]  。苹果公司最早于2007年1月9日的Macworld大会上公布这个系统，最初是设计给iPhone使用的，后来陆续套用到iPod touch、iPad以及Apple TV等产品上。iOS与苹果的Mac OS X操作系统一样，属于类Unix的商业操作系统。原本这个系统名为iPhone OS，因为iPad，iPhone，iPod touch都使用iPhone OS。</p></div>
+          <div class="panel panel-default">
+              <div class="panel-body">
+              <div class="media mediabottom">
+                  <div class="media-top">
+                    <a href="#">
+                        <img class="media-object tab2-img" src="./images/CSJ.png" alt="..." width="100" height="100">
+                    </a>
+                  </div>
+                  <div class="media-body tab2-text">
+                    <h4 class="media-heading headh5">Web前端开发工程师</h4>
+                    <span>Web前端开发工程师，主要职责是利用HTML/CSS/Javascript/flash等各种Web技术进行产品的开发</span>
+                  </div>
+              </div>
+              </div>
+            <div class="bs-example" data-example-id="bordered-table tab2-table">
+                <table class="table table-bordered tab2-tableBottom">
+                  <tbody>
+                    <tr>
+                      <td>门槛&nbsp;&nbsp;<span class="glyphicon glyphicon-star" style="color:orange;"></span></td>
+                      <td>难易程度&nbsp;&nbsp;<span class="glyphicon glyphicon-star" style="color:orange;"></span><span class="glyphicon glyphicon-star" style="color:orange;"></span></td>
+                    </tr>
+                    <tr>
+                      <td>成长周期&nbsp;&nbsp;<span style="color:orange">1-3</span>年</td>
+                      <td>稀缺程度&nbsp;&nbsp;<span style="color:orange">345</span>家公司需要</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="3" class="right" align="center"><br/><br/>薪资待遇</td>
+                      <td>0-1年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5K-10K每月</td>
+                    </tr>
+                    <tr>
+                      <td>1-3年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10K-20K每月</td>
+                    </tr>
+                    <tr>
+                      <td>4-5年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20K-30K每月</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" class="right" align="center">有<span style="color:orange">286</span>人正在学</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p align="center">提示：在你学之前应该掌握XXX,XXX等语言</p>
+              </div>
+          </div>              
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 mediathree">
+          <div class="box">
+            <div class="bmbox"><h3 style="font-weight:600;" class="tab2-h3">Web工程师</h3><p class="tab2-p">iOS是由苹果公司开发的移动操作系统[1]  。苹果公司最早于2007年1月9日的Macworld大会上公布这个系统，最初是设计给iPhone使用的，后来陆续套用到iPod touch、iPad以及Apple TV等产品上。iOS与苹果的Mac OS X操作系统一样，属于类Unix的商业操作系统。原本这个系统名为iPhone OS，因为iPad，iPhone，iPod touch都使用iPhone OS。</p></div>
+          <div class="panel panel-default">
+              <div class="panel-body">
+              <div class="media mediabottom">
+                  <div class="media-top">
+                    <a href="#">
+                        <img class="media-object tab2-img" src="./images/CSJ.png" alt="..." width="100" height="100">
+                    </a>
+                  </div>
+                  <div class="media-body tab2-text">
+                    <h4 class="media-heading headh5">Web前端开发工程师</h4>
+                    <span>Web前端开发工程师，主要职责是利用HTML/CSS/Javascript/flash等各种Web技术进行产品的开发</span>
+                  </div>
+              </div>
+              </div>
+            <div class="bs-example" data-example-id="bordered-table tab2-table">
+                <table class="table table-bordered tab2-tableBottom">
+                  <tbody>
+                    <tr>
+                      <td>门槛&nbsp;&nbsp;<span class="glyphicon glyphicon-star" style="color:orange;"></span></td>
+                      <td>难易程度&nbsp;&nbsp;<span class="glyphicon glyphicon-star" style="color:orange;"></span><span class="glyphicon glyphicon-star" style="color:orange;"></span></td>
+                    </tr>
+                    <tr>
+                      <td>成长周期&nbsp;&nbsp;<span style="color:orange">1-3</span>年</td>
+                      <td>稀缺程度&nbsp;&nbsp;<span style="color:orange">345</span>家公司需要</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="3" class="right" align="center"><br/><br/>薪资待遇</td>
+                      <td>0-1年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5K-10K每月</td>
+                    </tr>
+                    <tr>
+                      <td>1-3年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10K-20K每月</td>
+                    </tr>
+                    <tr>
+                      <td>4-5年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20K-30K每月</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" class="right" align="center">有<span style="color:orange">286</span>人正在学</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p align="center">提示：在你学之前应该掌握XXX,XXX等语言</p>
+              </div>
+          </div>              
+            </div>
+        </div>
+  </div>
+  <!-- 内容第四区 已选标签名称 -->
+  <div class="row tab1Area">
+    <div class="col-md-1 col-sm-1 col-xs-1"></div>
+    <div class="col-md-10 col-sm-10 col-xs-10 selfLabel">
+      <a name="004"></a><h4 class="tab1-h">整站开发方向</h4>
+    </div>
+    <div class="col-md-1 col-sm-1 col-xs-1"></div>
+  </div>
+  <!-- 内容第四区 主体内容 -->
+  <div class="row media3M">
+        <div class="col-xs-12 col-sm-6 col-md-4 mediathree">
+          <div class="box">
+            <div class="bmbox"><h3 style="font-weight:600;" class="tab2-h3">Web工程师</h3><p class="tab2-p">iOS是由苹果公司开发的移动操作系统[1]  。苹果公司最早于2007年1月9日的Macworld大会上公布这个系统，最初是设计给iPhone使用的，后来陆续套用到iPod touch、iPad以及Apple TV等产品上。iOS与苹果的Mac OS X操作系统一样，属于类Unix的商业操作系统。原本这个系统名为iPhone OS，因为iPad，iPhone，iPod touch都使用iPhone OS。</p></div>
+          <div class="panel panel-default">
+              <div class="panel-body">
+              <div class="media mediabottom">
+                  <div class="media-top">
+                    <a href="#">
+                        <img class="media-object tab2-img" src="./images/CSJ.png" alt="..." width="100" height="100">
+                    </a>
+                  </div>
+                  <div class="media-body tab2-text">
+                    <h4 class="media-heading headh5">Web前端开发工程师</h4>
+                    <span>Web前端开发工程师，主要职责是利用HTML/CSS/Javascript/flash等各种Web技术进行产品的开发</span>
+                  </div>
+              </div>
+              </div>
+            <div class="bs-example" data-example-id="bordered-table tab2-table">
+                <table class="table table-bordered tab2-tableBottom">
+                  <tbody>
+                    <tr>
+                      <td>门槛&nbsp;&nbsp;<span class="glyphicon glyphicon-star" style="color:orange;"></span></td>
+                      <td>难易程度&nbsp;&nbsp;<span class="glyphicon glyphicon-star" style="color:orange;"></span><span class="glyphicon glyphicon-star" style="color:orange;"></span></td>
+                    </tr>
+                    <tr>
+                      <td>成长周期&nbsp;&nbsp;<span style="color:orange">1-3</span>年</td>
+                      <td>稀缺程度&nbsp;&nbsp;<span style="color:orange">345</span>家公司需要</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="3" class="right" align="center"><br/><br/>薪资待遇</td>
+                      <td>0-1年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5K-10K每月</td>
+                    </tr>
+                    <tr>
+                      <td>1-3年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10K-20K每月</td>
+                    </tr>
+                    <tr>
+                      <td>4-5年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20K-30K每月</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" class="right" align="center">有<span style="color:orange">286</span>人正在学</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p align="center">提示：在你学之前应该掌握XXX,XXX等语言</p>
+              </div>
+          </div>              
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 mediathree">
+          <div class="box">
+            <div class="bmbox"><h3 style="font-weight:600;" class="tab2-h3">Web工程师</h3><p class="tab2-p">iOS是由苹果公司开发的移动操作系统[1]  。苹果公司最早于2007年1月9日的Macworld大会上公布这个系统，最初是设计给iPhone使用的，后来陆续套用到iPod touch、iPad以及Apple TV等产品上。iOS与苹果的Mac OS X操作系统一样，属于类Unix的商业操作系统。原本这个系统名为iPhone OS，因为iPad，iPhone，iPod touch都使用iPhone OS。</p></div>
+          <div class="panel panel-default">
+              <div class="panel-body">
+              <div class="media mediabottom">
+                  <div class="media-top">
+                    <a href="#">
+                        <img class="media-object tab2-img" src="./images/CSJ.png" alt="..." width="100" height="100">
+                    </a>
+                  </div>
+                  <div class="media-body tab2-text">
+                    <h4 class="media-heading headh5">Web前端开发工程师</h4>
+                    <span>Web前端开发工程师，主要职责是利用HTML/CSS/Javascript/flash等各种Web技术进行产品的开发</span>
+                  </div>
+              </div>
+              </div>
+            <div class="bs-example" data-example-id="bordered-table tab2-table">
+                <table class="table table-bordered tab2-tableBottom">
+                  <tbody>
+                    <tr>
+                      <td>门槛&nbsp;&nbsp;<span class="glyphicon glyphicon-star" style="color:orange;"></span></td>
+                      <td>难易程度&nbsp;&nbsp;<span class="glyphicon glyphicon-star" style="color:orange;"></span><span class="glyphicon glyphicon-star" style="color:orange;"></span></td>
+                    </tr>
+                    <tr>
+                      <td>成长周期&nbsp;&nbsp;<span style="color:orange">1-3</span>年</td>
+                      <td>稀缺程度&nbsp;&nbsp;<span style="color:orange">345</span>家公司需要</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="3" class="right" align="center"><br/><br/>薪资待遇</td>
+                      <td>0-1年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5K-10K每月</td>
+                    </tr>
+                    <tr>
+                      <td>1-3年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10K-20K每月</td>
+                    </tr>
+                    <tr>
+                      <td>4-5年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20K-30K每月</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" class="right" align="center">有<span style="color:orange">286</span>人正在学</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p align="center">提示：在你学之前应该掌握XXX,XXX等语言</p>
+              </div>
+          </div>              
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 mediathree">
+          <div class="box">
+            <div class="bmbox"><h3 style="font-weight:600;" class="tab2-h3">Web工程师</h3><p class="tab2-p">iOS是由苹果公司开发的移动操作系统[1]  。苹果公司最早于2007年1月9日的Macworld大会上公布这个系统，最初是设计给iPhone使用的，后来陆续套用到iPod touch、iPad以及Apple TV等产品上。iOS与苹果的Mac OS X操作系统一样，属于类Unix的商业操作系统。原本这个系统名为iPhone OS，因为iPad，iPhone，iPod touch都使用iPhone OS。</p></div>
+          <div class="panel panel-default">
+              <div class="panel-body">
+              <div class="media mediabottom">
+                  <div class="media-top">
+                    <a href="#">
+                        <img class="media-object tab2-img" src="./images/CSJ.png" alt="..." width="100" height="100">
+                    </a>
+                  </div>
+                  <div class="media-body tab2-text">
+                    <h4 class="media-heading headh5">Web前端开发工程师</h4>
+                    <span>Web前端开发工程师，主要职责是利用HTML/CSS/Javascript/flash等各种Web技术进行产品的开发</span>
+                  </div>
+              </div>
+              </div>
+            <div class="bs-example" data-example-id="bordered-table tab2-table">
+                <table class="table table-bordered tab2-tableBottom">
+                  <tbody>
+                    <tr>
+                      <td>门槛&nbsp;&nbsp;<span class="glyphicon glyphicon-star" style="color:orange;"></span></td>
+                      <td>难易程度&nbsp;&nbsp;<span class="glyphicon glyphicon-star" style="color:orange;"></span><span class="glyphicon glyphicon-star" style="color:orange;"></span></td>
+                    </tr>
+                    <tr>
+                      <td>成长周期&nbsp;&nbsp;<span style="color:orange">1-3</span>年</td>
+                      <td>稀缺程度&nbsp;&nbsp;<span style="color:orange">345</span>家公司需要</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="3" class="right" align="center"><br/><br/>薪资待遇</td>
+                      <td>0-1年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5K-10K每月</td>
+                    </tr>
+                    <tr>
+                      <td>1-3年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10K-20K每月</td>
+                    </tr>
+                    <tr>
+                      <td>4-5年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20K-30K每月</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" class="right" align="center">有<span style="color:orange">286</span>人正在学</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p align="center">提示：在你学之前应该掌握XXX,XXX等语言</p>
+              </div>
+          </div>              
+            </div>
+        </div>
+  </div>
+  <!-- 内容第五区 已选标签名称 -->
+  <div class="row tab1Area">
+    <div class="col-md-1 col-sm-1 col-xs-1"></div>
+    <div class="col-md-10 col-sm-10 col-xs-10 selfLabel">
+      <a name="005"></a><h4 class="tab1-h">运营与维护方向</h4>
+    </div>
+    <div class="col-md-1 col-sm-1 col-xs-1"></div>
+  </div>
+  <!-- 内容第五区 主体内容 -->
+  <div class="row media3M">
+        <div class="col-xs-12 col-sm-6 col-md-4 mediathree">
+          <div class="box">
+            <div class="bmbox"><h3 style="font-weight:600;" class="tab2-h3">Web工程师</h3><p class="tab2-p">iOS是由苹果公司开发的移动操作系统[1]  。苹果公司最早于2007年1月9日的Macworld大会上公布这个系统，最初是设计给iPhone使用的，后来陆续套用到iPod touch、iPad以及Apple TV等产品上。iOS与苹果的Mac OS X操作系统一样，属于类Unix的商业操作系统。原本这个系统名为iPhone OS，因为iPad，iPhone，iPod touch都使用iPhone OS。</p></div>
+          <div class="panel panel-default">
+              <div class="panel-body">
+              <div class="media mediabottom">
+                  <div class="media-top">
+                    <a href="#">
+                        <img class="media-object tab2-img" src="./images/CSJ.png" alt="..." width="100" height="100">
+                    </a>
+                  </div>
+                  <div class="media-body tab2-text">
+                    <h4 class="media-heading headh5">Web前端开发工程师</h4>
+                    <span>Web前端开发工程师，主要职责是利用HTML/CSS/Javascript/flash等各种Web技术进行产品的开发</span>
+                  </div>
+              </div>
+              </div>
+            <div class="bs-example" data-example-id="bordered-table tab2-table">
+                <table class="table table-bordered tab2-tableBottom">
+                  <tbody>
+                    <tr>
+                      <td>门槛&nbsp;&nbsp;<span class="glyphicon glyphicon-star" style="color:orange;"></span></td>
+                      <td>难易程度&nbsp;&nbsp;<span class="glyphicon glyphicon-star" style="color:orange;"></span><span class="glyphicon glyphicon-star" style="color:orange;"></span></td>
+                    </tr>
+                    <tr>
+                      <td>成长周期&nbsp;&nbsp;<span style="color:orange">1-3</span>年</td>
+                      <td>稀缺程度&nbsp;&nbsp;<span style="color:orange">345</span>家公司需要</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="3" class="right" align="center"><br/><br/>薪资待遇</td>
+                      <td>0-1年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5K-10K每月</td>
+                    </tr>
+                    <tr>
+                      <td>1-3年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10K-20K每月</td>
+                    </tr>
+                    <tr>
+                      <td>4-5年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20K-30K每月</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" class="right" align="center">有<span style="color:orange">286</span>人正在学</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p align="center">提示：在你学之前应该掌握XXX,XXX等语言</p>
+              </div>
+          </div>              
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 mediathree">
+          <div class="box">
+            <div class="bmbox"><h3 style="font-weight:600;" class="tab2-h3">Web工程师</h3><p class="tab2-p">iOS是由苹果公司开发的移动操作系统[1]  。苹果公司最早于2007年1月9日的Macworld大会上公布这个系统，最初是设计给iPhone使用的，后来陆续套用到iPod touch、iPad以及Apple TV等产品上。iOS与苹果的Mac OS X操作系统一样，属于类Unix的商业操作系统。原本这个系统名为iPhone OS，因为iPad，iPhone，iPod touch都使用iPhone OS。</p></div>
+          <div class="panel panel-default">
+              <div class="panel-body">
+              <div class="media mediabottom">
+                  <div class="media-top">
+                    <a href="#">
+                        <img class="media-object tab2-img" src="./images/CSJ.png" alt="..." width="100" height="100">
+                    </a>
+                  </div>
+                  <div class="media-body tab2-text">
+                    <h4 class="media-heading headh5">Web前端开发工程师</h4>
+                    <span>Web前端开发工程师，主要职责是利用HTML/CSS/Javascript/flash等各种Web技术进行产品的开发</span>
+                  </div>
+              </div>
+              </div>
+            <div class="bs-example" data-example-id="bordered-table tab2-table">
+                <table class="table table-bordered tab2-tableBottom">
+                  <tbody>
+                    <tr>
+                      <td>门槛&nbsp;&nbsp;<span class="glyphicon glyphicon-star" style="color:orange;"></span></td>
+                      <td>难易程度&nbsp;&nbsp;<span class="glyphicon glyphicon-star" style="color:orange;"></span><span class="glyphicon glyphicon-star" style="color:orange;"></span></td>
+                    </tr>
+                    <tr>
+                      <td>成长周期&nbsp;&nbsp;<span style="color:orange">1-3</span>年</td>
+                      <td>稀缺程度&nbsp;&nbsp;<span style="color:orange">345</span>家公司需要</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="3" class="right" align="center"><br/><br/>薪资待遇</td>
+                      <td>0-1年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5K-10K每月</td>
+                    </tr>
+                    <tr>
+                      <td>1-3年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10K-20K每月</td>
+                    </tr>
+                    <tr>
+                      <td>4-5年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20K-30K每月</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" class="right" align="center">有<span style="color:orange">286</span>人正在学</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p align="center">提示：在你学之前应该掌握XXX,XXX等语言</p>
+              </div>
+          </div>              
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4 mediathree">
+          <div class="box">
+            <div class="bmbox"><h3 style="font-weight:600;" class="tab2-h3">Web工程师</h3><p class="tab2-p">iOS是由苹果公司开发的移动操作系统[1]  。苹果公司最早于2007年1月9日的Macworld大会上公布这个系统，最初是设计给iPhone使用的，后来陆续套用到iPod touch、iPad以及Apple TV等产品上。iOS与苹果的Mac OS X操作系统一样，属于类Unix的商业操作系统。原本这个系统名为iPhone OS，因为iPad，iPhone，iPod touch都使用iPhone OS。</p></div>
+          <div class="panel panel-default">
+              <div class="panel-body">
+              <div class="media mediabottom">
+                  <div class="media-top">
+                    <a href="#">
+                        <img class="media-object tab2-img" src="./images/CSJ.png" alt="..." width="100" height="100">
+                    </a>
+                  </div>
+                  <div class="media-body tab2-text">
+                    <h4 class="media-heading headh5">Web前端开发工程师</h4>
+                    <span>Web前端开发工程师，主要职责是利用HTML/CSS/Javascript/flash等各种Web技术进行产品的开发</span>
+                  </div>
+              </div>
+              </div>
+            <div class="bs-example" data-example-id="bordered-table tab2-table">
+                <table class="table table-bordered tab2-tableBottom">
+                  <tbody>
+                    <tr>
+                      <td>门槛&nbsp;&nbsp;<span class="glyphicon glyphicon-star" style="color:orange;"></span></td>
+                      <td>难易程度&nbsp;&nbsp;<span class="glyphicon glyphicon-star" style="color:orange;"></span><span class="glyphicon glyphicon-star" style="color:orange;"></span></td>
+                    </tr>
+                    <tr>
+                      <td>成长周期&nbsp;&nbsp;<span style="color:orange">1-3</span>年</td>
+                      <td>稀缺程度&nbsp;&nbsp;<span style="color:orange">345</span>家公司需要</td>
+                    </tr>
+                    <tr>
+                      <td rowspan="3" class="right" align="center"><br/><br/>薪资待遇</td>
+                      <td>0-1年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5K-10K每月</td>
+                    </tr>
+                    <tr>
+                      <td>1-3年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10K-20K每月</td>
+                    </tr>
+                    <tr>
+                      <td>4-5年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20K-30K每月</td>
+                    </tr>
+                    <tr>
+                      <td colspan="2" class="right" align="center">有<span style="color:orange">286</span>人正在学</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p align="center">提示：在你学之前应该掌握XXX,XXX等语言</p>
+              </div>
+          </div>              
+            </div>
+        </div>
+  </div>
+  <!-- 页脚 -->
+  <div class="footer">
+    <div class="row">
+      <div class="col-md-4 col-sm-4 footer01">
+        <br/>
+        <br/>
+        <span>技能树改变你我</span>
+        <br/>
+        <br/>
+        <br/>
+        <span>关于我们 | 联系我们 | 合作企业</span>
+      </div>
+      <div class="col-md-4 col-sm-4 footer01">
+        <br/>
+        <span>旗下网站</span>
+        <br/>
+        <br/>
+        <span>草船云孵化器&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;最强IT特训营</span>
+        <br/>
+        <br/>
+        <span>葡萄藤轻游戏&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;桌游精灵</span>         
+      </div>
+      <div class="col-md-2 col-sm-2 footer01">
+        <img src="./images/weixin.png" width="105" height="115" class="img-responsive center-block">
+      </div>
+    </div>    
+  </div>
+  <div class="footerinfo">
+    <div class="row">   
+      <div class="col-md-12">       
+        <span>Copyright © 2015技能树 | 京ICP备案号13005880号</span>
+      </div>
+    </div>
+  </div>
+    
+    <script>
+      function changecolor()  //定义函数
+          {      
+              var mychar = document.getElementById("buttontry"); //获取要改变颜色的id
+              mychar.style.backgroundColor="#FFFFF0"
+      }
+    </script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

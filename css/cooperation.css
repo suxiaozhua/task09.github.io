@@ -1,0 +1,236 @@
+@charset "utf-8";
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei UI", "Microsoft YaHei", SimHei, "\5B8B\4F53", simsun, sans-serif;
+}
+
+.beijing {
+	background-color: 	#F5F5F5;
+}
+
+/* 导航栏 */
+
+.header_bottom {
+	padding: 5px 0;
+	background-color: #29B078;
+}
+
+.icon-bar {
+	background-color: #696969;	
+}
+
+.navbar-right {
+	padding: 0;
+}
+
+.navbar-right a:link,
+.navbar-right a:visited {
+	color: #FFF;
+	background-color: #29B078;
+	margin-bottom: 2px;
+}
+
+.navbar-right li a:hover {
+	background-color: #29B078;
+	border-bottom: 2px solid #FFF;
+	margin-bottom: 0;
+}
+
+/* 页头 */
+
+.logo {
+	padding: 0 0 0 10px;
+	margin: 0;
+}
+
+.topleft {
+	height: 30px;
+}
+
+.toplefts {
+	border-right: 2px solid #29B078;
+}
+
+.topleft a {
+	display: inline-block;
+	margin: 5px 0;
+	float: right;
+}
+
+.htIMG {
+	display: inline-block;
+	text-align: right;
+}
+
+/* *面包屑导航* */
+
+.miaobaob {
+	margin-top: 10px;
+	border-bottom: 1px solid #DDD;
+	font-size: 16px;
+}
+
+.mianbao {
+	background-color: #FFF;
+	margin-bottom: 10px;
+}
+
+.mianbao li a:link,
+.mianbao li a:visited {
+	color: #000;
+	border-bottom: none;
+	text-decoration:none;
+	font-weight: 700;
+}
+
+/* *主体内容区* */
+
+.Clist li {
+	display: block;
+	text-align: center;
+	color: #29B078;
+}
+
+.Clist {
+	margin: 40px 10px;
+	border-bottom: 1px solid #DDD;
+}
+
+.textright {
+	margin-top: 40px;
+}
+
+.ClistTop {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 40px;
+}
+
+.ClistLittle {
+	font-size: 15px;
+	font-weight: 550;
+}
+
+.ClistLittle a,
+.ClistLittle span {
+	display: inline-block;
+}
+
+.ttt {
+	margin-top: 6px;
+}
+
+.ClistLittle a:link,
+.ClistLittle a:visited {
+	color: #29B078;
+	border-bottom: none;
+	text-decoration:none;
+}
+
+.ClistLittle a:hover {
+	color: orange;
+}
+
+.ClistLittle a:hover .itemorange {
+	background: orange;
+}
+
+
+
+.tudou {
+	margin-left: 25px;
+}
+
+.tudoubody {
+	padding: 25px;
+	font-size: 15px;
+}
+
+.tab1-text {
+	font-size: 15px;
+}
+
+.panel-body {
+	padding: 0 20px;
+}
+
+.box {
+	display: flex;
+	margin-top: 10px;
+	justify-content: center;
+}
+
+.itemorange {
+	width: 10px;
+	height: 10px;
+	background: #fff;
+	border-radius: 50%;
+	border: 1px solid gray;
+	margin: 3px 3px 10px 3px;
+}
+
+
+/* *页脚* */
+
+.footer {
+	padding: 20px;
+	background-color: #29B078;
+}
+
+.footer01 {
+	color: #FFF;
+	margin: 1px 5px 0;
+	padding-bottom: 5px;
+	background-color: #29B078;
+	text-align: center;
+}
+
+.footerinfo {
+	height: 40px;
+	background-color: #29B078;
+	border-top: 1px solid #FFF;
+	color: #FFF;
+	padding: 1px;
+	margin: 1px;
+	text-align: center;
+}
+
+
+
+/*没有小于768px，是因为Bootstrap3以移动端优先设计*/
+
+/* 小屏幕（平板，大于等于768px） */
+@media (min-width: 768px) {
+	.miaobaob {
+		font-size: 18px;
+	}
+	.Clist {
+		margin: 40px 10px;
+	}
+	}
+
+/* 中等屏幕（桌面显示器，大于等于992px） */
+@media (min-width: 992px) {
+	.miaobaob {
+		font-size: 19px; /*15px 16px 17px 18px*/	
+	}
+	.Clist {
+		margin: 40px 10px;
+	}
+	.tab2-img {
+		float: left;
+	}
+	}
+
+/* 大屏幕（大桌面显示器，大于等于1200px） */
+@media (min-width: 1200px) {
+	.miaobaob {
+		font-size: 19px; /*15px 16px 18px 18px*/
+	}
+	.Clist {
+		margin: 40px 10px;
+	}
+	.tab2-img {
+		float: left;
+	}
+	}		
